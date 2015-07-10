@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   /* Add Slideout.js */
-  api.addFiles('lib/dist/slideout.min.js', 'client');
+  api.addFiles('lib/dist/slideout.js', 'client');
   api.addFiles('export.js', 'client');
   api.export('Slideout');
 });
