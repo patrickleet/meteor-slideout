@@ -1,6 +1,6 @@
 Package.describe({
-  name: 'chriswessels:slideout',
-  version: '0.1.9_2',
+  name: 'patrickleet:slideout',
+  version: '0.1.10_1',
   // Brief, one-line summary of the package.
   summary: 'A touch slideout navigation menu for your mobile web apps',
   // URL to the Git repository containing the source code for this package.
@@ -20,6 +20,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('chriswessels:slideout');
+  api.use('patrickleet:slideout');
   api.addFiles('test.js', 'client');
 });
