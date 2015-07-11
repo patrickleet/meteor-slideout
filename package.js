@@ -1,10 +1,10 @@
 Package.describe({
   name: 'patrickleet:slideout',
-  version: '0.1.10_1',
+  version: '0.1.10_2',
   // Brief, one-line summary of the package.
-  summary: 'A touch slideout navigation menu for your mobile web apps',
+  summary: 'A forked touch slideout navigation menu for your mobile web apps',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/chriswessels/meteor-slideout',
+  git: 'https://github.com/patrickleet/meteor-slideout',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'

@@ -1,6 +1,7 @@
 # patrickleet:slideout
 
 Forked from chriswessels:slideout to add "grabWidth" option.
+https://github.com/Mango/slideout/pull/10
 
 A smart-package that bundles [Slideout.js](https://github.com/mango/slideout) for touch slideout navigation for your mobile web apps.
 
@@ -35,7 +36,8 @@ Template.MasterLayout.onRendered(function () {
     'menu': template.$('.menu').get(0),
     'panel': $('.content').get(0),
     'padding': 256,
-    'tolerance': 70
+    'tolerance': 70,
+    'grabWidth': 44
   });
 });
 ```
